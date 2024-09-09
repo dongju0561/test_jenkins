@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // 이미 설정된 환경 변수 사용
-        ANDROID_HOME = "${env.ANDROID_HOME}"
+        ANDROID_HOME = "/home/pdj/android_sdk"
         PATH = "${env.PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools"
     }
 
