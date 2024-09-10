@@ -2,8 +2,7 @@ pipeline {
     agent any
     environment {
         // Android SDK 경로 설정
-        ANDROID_HOME = "/path/to/your/android-sdk"
-         PATH = "${env.PATH}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools"
+        ANDROID_HOME = "/home/pdj/android_sdk"
     }
     stages {
         stage('Checkout') {
