@@ -3,7 +3,6 @@ pipeline {
 
     environment {
         ANDROID_HOME = "/home/pdj/android_sdk"
-        PATH = "${env.PATH}:${ANDROID_HOME}/platform-tools"
     }
 
     stages {
